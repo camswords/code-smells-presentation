@@ -1,3 +1,5 @@
 dog with four legs
 test before setup duplication etc
 liskov substitutability
+god object
+encapsulation
