@@ -1,0 +1,14 @@
+
+whats the goal of this presentation?
+
+	I consider myself a software craftsman
+		be passionate!
+	expose you to code. everybody should read more code!
+	
+
+code journeys. should this be about the journey?
+
+can you smell yourself?
+	can you smell your own code?
+
+might have to define entity and value objects
