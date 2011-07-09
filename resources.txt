@@ -1,0 +1,6 @@
+
+http://www.codinghorror.com/blog/2006/05/code-smells.html (has a list of smells)
+
+http://blog.architexa.com/2010/05/no-you-are-not-dumb-programmers-do-spend-a-lot-of-time-understanding-code/ (up to date reference on reading code)
+
+http://blogs.msdn.com/b/peterhal/archive/2006/01/04/509302.aspx (C# compiler dude evaluating VS editor)

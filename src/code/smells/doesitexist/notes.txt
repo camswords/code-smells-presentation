@@ -1,0 +1,14 @@
+value readability over performance
+
+we can always still solve the performance problem later (cache to remember cats?)
+
+null is a poor tool for relaying information
+
+we pass the view class two different types of object
+	we expect it to behave differently based upon the input argument
+	ah ha! new object
+	
+	
+take 2:
+	code now matches closer to what is inside your head
+	faster to understand

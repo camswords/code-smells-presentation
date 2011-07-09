@@ -1,7 +1,5 @@
 package code.smells.date.take1;
 
-import code.smells.date.DayOfWeek;
-
 public class Date {
 
 	private DayOfWeek dayOfWeek;

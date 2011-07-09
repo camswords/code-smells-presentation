@@ -5,6 +5,16 @@ whats the goal of this presentation?
 		be passionate!
 	expose you to code. everybody should read more code!
 	
+	work on your spidey sense
+	
+	i want to show you how to read between the lines of code
+		little piece of learning that the code is trying to teach us
+		
+	this is not aimed at the beginner coder
+	
+	this will be an opinionated presentation
+		feel free to disagree 
+	
 
 code journeys. should this be about the journey?
 
@@ -12,3 +22,11 @@ can you smell yourself?
 	can you smell your own code?
 
 might have to define entity and value objects
+
+trade off
+
+in head: I have an idea of what this means
+in code: does this reflect what I think in my head?
+translation cost = high cost of understanding.
+
+writing vs reading. 
