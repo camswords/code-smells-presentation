@@ -15,8 +15,12 @@ whats the goal of this presentation?
 	this will be an opinionated presentation
 		feel free to disagree 
 	
+what is a code smell?
+
+kind of like a code review
 
 code journeys. should this be about the journey?
+	red green... the refactor journey
 
 can you smell yourself?
 	can you smell your own code?

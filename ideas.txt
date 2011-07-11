@@ -3,3 +3,4 @@ test before setup duplication etc
 liskov substitutability
 god object
 encapsulation
+inheritance
