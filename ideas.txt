@@ -2,5 +2,5 @@ dog with four legsm- done
 test before setup duplication etc - done
 liskov substitutability
 god object
-encapsulation
-inheritance
+encapsulation - done
+inheritance - will do as part of the understanding thingy
