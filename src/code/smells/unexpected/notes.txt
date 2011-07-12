@@ -1,0 +1,9 @@
+
+take 1: insert on find
+
+- side effect!! WTF
+- command and query separation (similar to SQL)
+
+take 2:
+
+- separation of concerns (method level)

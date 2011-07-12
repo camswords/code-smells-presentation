@@ -1,5 +1,5 @@
 
-http://www.codinghorror.com/blog/2006/05/code-smells.html (has a list of smells)
+http://www.codinghorror.com/blog/2006/05/code-smells.html (has a list of smells) (from Fowler's book)
 
 http://blog.architexa.com/2010/05/no-you-are-not-dumb-programmers-do-spend-a-lot-of-time-understanding-code/ (up to date reference on reading code)
 
