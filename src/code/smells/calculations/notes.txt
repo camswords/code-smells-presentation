@@ -1,0 +1,5 @@
+cohesion has been affected (data, behaviour has been separated)
+encapsulation has been broken
+agent noun ("manager", "parser", "calculator", etc)
+feature envy
+aneamic classes / domain
