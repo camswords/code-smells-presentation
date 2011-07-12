@@ -1,0 +1,23 @@
+
+take 1:
+can imagine that the logic to fly/swim etc could be complicated.
+
+- nasty if else (hard to add new type of movement)
+- hard to make a animal swim or fly
+- breaks the open-closed principle
+- booleans arent very descriptive
+- breaks the single responsibility principle
+
+take 2:
+does this solve our issues? NO!
+
+- same problems
+- anytime your object behaves entirely differently based on input data: new object!
+
+
+take 3:
+
++ animal: simple interface
++ good names: specific, explicit. conveys more means, describes intent.
++ logic is in separate places (less conflicts, easier to unit test, easier to substitute etc).
++ note the job of a class

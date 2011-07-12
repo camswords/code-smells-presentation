@@ -1,0 +1,56 @@
+take1: 
+
+- hungarian notation is horrible
+- extracted constants. humans are really good at pattern matching!!
+
+take 101:
+
++ faster to understand (follow the pattern of "50.00")
+- duplication. who cares!
+
+everything in one method:
+
++ quickly add our new test, setup has already been done
+- doesnt scale, method is already long. will eventually become hard to read and write.
+- there is data in the test that is not important for the test
+- hard to read
+- test dependent on constructor of BankAccount (hard to add another parameter to constructor)
+- poor feedback. if withdraw fails, you never find out about deposit
+- general name, reflects the fact that it doesnt do one thing specifically (used for multiple purposes)
+
+take 11:
+
++ separate methods
++ easy to add/remove separate functionality from the BankAccount (remove withdraw, then remove the withdraw tests)
+- have a bit of duplication of the data in the test (who cares)
+- have a bit of duplication of the bank account constructor
+
+take 2: setup!
+
+- bucket catch all setup method (can have multiple setups? why?)
+- pattern matching is harder
+- tests are no longer isolated, therefore are hard to change
+- no duplication of the 'BankAccount'
+
+take 3: builder
+
++ less dependency on the bank account constructor - easily add new parameter to BankAccount
+- cant read what happens in the test now. The data has gone! 
+	- lots of tests end up being dependent on the same piece of data. Horrible! Hard to change!
+- no setup/bucket
++ tests are isolated again (except data)
+
+take 4: builder has value
+
++ pattern matching for the win
+- more code
++ test data is isolated again
+- we could write the bank account builder in a way that is easier for its use - in tests!
+	(breaking encapsulation?)
+
+
+take 5: matcher
+
++ reads much much better
++ might get a better error message
++ builder is set up for testing purposes

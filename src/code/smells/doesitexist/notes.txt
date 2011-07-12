@@ -1,14 +1,15 @@
-value readability over performance
 
-we can always still solve the performance problem later (cache to remember cats?)
+take 1:
 
-null is a poor tool for relaying information
++ we only need to access the database once. yay for performance!
+- null is a poor tool for relaying information (what does it mean?)
+- the view is overloaded. its has to behave two different ways - once for displaying a cat, once for displaying i cant find the cat
+	new object!
 
-we pass the view class two different types of object
-	we expect it to behave differently based upon the input argument
-	ah ha! new object
-	
-	
+value readability over performance?
+	we can always still solve the performance problem later (cache to remember cats?)
+
 take 2:
 	code now matches closer to what is inside your head
 	faster to understand
+	performance problem could be solved by a cache (repository level)

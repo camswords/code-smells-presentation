@@ -1,36 +1,27 @@
-package code.smells.testing.take2;
+package code.smells.testing.take11;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;
 
 import java.math.BigDecimal;
 
-import org.junit.Before;
 import org.junit.Test;
+
+import code.smells.testing.take2.BankAccount;
 
 public class BankAccountTest {
 	
-	private BankAccount account;
-	
-	@Before
-	public void setup() {
-		//given
-		account = new BankAccount(202626, 12345678, new BigDecimal("100.00"));
-	}
-	
 	@Test
 	public void shouldRemoveMoneyFromAccountOnWithdraw() {
-		//when
+		BankAccount account = new BankAccount(202626, 12345678, new BigDecimal("100.00"));
 		account.withdraw(new BigDecimal("50.00"));
-		//then
 		assertThat(account.getBalance(), equalTo(new BigDecimal("50.00")));
 	}
 	
 	@Test
 	public void shouldAddMoneyToAccountOnDeposit() {
-		//when
+		BankAccount account = new BankAccount(202626, 12345678, new BigDecimal("100.00"));
 		account.deposit(new BigDecimal("10.00"));
-		//then
 		assertThat(account.getBalance(), equalTo(new BigDecimal("110.00")));
 	}
 }

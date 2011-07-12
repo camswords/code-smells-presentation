@@ -9,12 +9,17 @@ public class BankAccountTest {
 	
 	@Test
 	public void shouldHandleMoney() {
-		BankAccount account = new BankAccount(202626, 12345678, new BigDecimal("100.00"));
+		BigDecimal bigDecimal10 = new BigDecimal("10.00");
+		BigDecimal bigDecimal50 = new BigDecimal("50.00");
+		BigDecimal bigDecimal60 = new BigDecimal("60.00");
+		BigDecimal bigDecimal100 = new BigDecimal("100.00");
+		
+		BankAccount account = new BankAccount(202626, 12345678, bigDecimal100);
 
-		account.withdraw(new BigDecimal("50.00"));
-		assertThat(account.getBalance(), equalTo(new BigDecimal("50.00")));
+		account.withdraw(bigDecimal50);
+		assertThat(account.getBalance(), equalTo(bigDecimal50));
 
-		account.deposit(new BigDecimal("10.00"));
-		assertThat(account.getBalance(), equalTo(new BigDecimal("60.00")));
+		account.deposit(bigDecimal10);
+		assertThat(account.getBalance(), equalTo(bigDecimal60));
 	}
 }

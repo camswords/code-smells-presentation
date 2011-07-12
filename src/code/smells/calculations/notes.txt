@@ -1,5 +1,20 @@
-cohesion has been affected (data, behaviour has been separated)
-encapsulation has been broken
-agent noun ("manager", "parser", "calculator", etc)
-feature envy
-aneamic classes / domain
+
+take 1:
+
+- cohesion has been affected (data, behaviour has been separated)
+- encapsulation has been broken
+- agent noun ("manager", "parser", "calculator", etc)
+- feature envy
+- aneamic classes / domain
+- dont understand where behaviour lives - dont know where to find it
++ maybe there are multiple ways to do the calculation
+
+take 2:
+still broken encapsulation
+
++ better that its behind a method though
+
+take 3:
+
++ cohesive
++ no longer anaemic

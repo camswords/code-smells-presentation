@@ -1,0 +1,20 @@
+take 1:
+
+important for a dog to know which leg is at which place in his body?
+
+can a dog really have more/less than four legs? (more? never. less? unlikely, but possible)
+
++ its easy to add another leg to a dog. Do we need this?
+- readability (the way you think about a dog isnt reflected in the code)
+
+take 2:
+
+explicit which legs are where on the dog.
+
++ clear that a dog only has 4 legs (readability)
+- more code 
+? how do we represent that a dog has lost a leg?
+
+take 3:
+
+like this!
