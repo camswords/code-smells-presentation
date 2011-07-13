@@ -5,7 +5,7 @@ public class Alien extends SmallBrain {
 	private String word = "";
 	
 	public Alien() {
-		super("umm...", "nark nark!");
+		super();
 	}
 
 	public void teach(String ... words) {
@@ -16,7 +16,13 @@ public class Alien extends SmallBrain {
 
 	@Override
 	public String regurgitate() {
-		return super.regurgitate() + " " + word;
+		String value = super.regurgitate();
+		
+		try {
+			Thread.sleep(2000);
+		} catch(InterruptedException e) {}
+		
+		return value + " " + word;
 	}
 
 	@Override

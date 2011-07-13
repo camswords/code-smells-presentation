@@ -6,7 +6,7 @@ import java.util.List;
 public class SmallBrain {
 
 	private List<String> words = new ArrayList<String>();
-	private int size = 1;
+	private final int size = 1;
 	
 	public SmallBrain(String ... words) {
 		for (int i = 0; i < words.length; i++) {
