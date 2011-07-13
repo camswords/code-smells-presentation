@@ -7,27 +7,23 @@ import org.apache.commons.lang.StringUtils;
 
 public class SmallFastBrain implements Brain {
 
+	private static final int MAX_MEMORY_SIZE = 1;
 	private final List<String> memory;
-	private final int size;
 	
-	public SmallFastBrain(int size) {
+	public SmallFastBrain() {
 		this.memory = new ArrayList<String>();
-		this.size = size;
 	}
 
-	@Override
 	public boolean canRememberMore() {
-		return memory.size() < size;
+		return memory.size() < MAX_MEMORY_SIZE;
 	}
 
-	@Override
 	public void remember(String word) {
 		if (canRememberMore()) {
 			memory.add(word);
 		}
 	}
 
-	@Override
 	public String regurgitate() {
 		return StringUtils.join(memory, " ");
 	}

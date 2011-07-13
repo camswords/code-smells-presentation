@@ -2,7 +2,7 @@ package code.smells.aliens.easy;
 
 public class Alien {
 	
-	private DoubleBrain brain = new DoubleBrain(new SmallFastBrain(1), new BigSlowBrain());
+	private DoubleBrain brain = new DoubleBrain(new SmallFastBrain(), new BigSlowBrain());
 	
 	public void teach(String ... words) {
 		for (int i = 0; i < words.length; i++) {
