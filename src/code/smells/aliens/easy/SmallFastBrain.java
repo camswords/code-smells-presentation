@@ -3,29 +3,32 @@ package code.smells.aliens.easy;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.commons.lang.StringUtils;
+
 public class SmallFastBrain implements Brain {
 
-	private List<String> words = new ArrayList<String>();
-	private int size = 1;
+	private final List<String> memory;
+	private final int size;
 	
+	public SmallFastBrain(int size) {
+		this.memory = new ArrayList<String>();
+		this.size = size;
+	}
+
 	@Override
 	public boolean canRememberMore() {
-		return words.size() < size;
+		return memory.size() < size;
 	}
 
 	@Override
 	public void remember(String word) {
-		words.add(word);
+		if (canRememberMore()) {
+			memory.add(word);
+		}
 	}
 
 	@Override
 	public String regurgitate() {
-		String allIKnow = "";
-
-		for (int i = 0; i < size && i < words.size(); i++) {
-			allIKnow += " " + words.get(i);
-		}
-		
-		return allIKnow;
+		return StringUtils.join(memory, " ");
 	}
 }

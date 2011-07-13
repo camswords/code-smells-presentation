@@ -1,8 +1,10 @@
 package code.smells.aliens.easy;
 
+import java.util.concurrent.TimeUnit;
+
 public class BigSlowBrain implements Brain {
 
-	private String word = "";
+	private String memory = "";
 	
 	@Override
 	public boolean canRememberMore() {
@@ -11,11 +13,15 @@ public class BigSlowBrain implements Brain {
 
 	@Override
 	public String regurgitate() {
-		return word;
+		try { 
+			TimeUnit.SECONDS.sleep(2);
+		} catch(InterruptedException e) {}
+		
+		return memory;
 	}
 
 	@Override
 	public void remember(String word) {
-		this.word += word + " ";
+		this.memory += word + " ";
 	}
 }

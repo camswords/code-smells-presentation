@@ -2,13 +2,7 @@ package code.smells.aliens.easy;
 
 public class Alien {
 	
-	private CompositeBrain brain;
-	
-	public Alien() {
-		brain = new CompositeBrain(new SmallFastBrain(), new BigSlowBrain());
-		brain.remember("umm...");
-		brain.remember("nark nark!");
-	}
+	private DoubleBrain brain = new DoubleBrain(new SmallFastBrain(1), new BigSlowBrain());
 	
 	public void teach(String ... words) {
 		for (int i = 0; i < words.length; i++) {
