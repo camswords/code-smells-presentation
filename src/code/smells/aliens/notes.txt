@@ -1,0 +1,27 @@
+
+
+easy:
+
+clear concepts
+more code
+more classes
+easier to understand?
+what did you learn?
+	Alien
+	teaching english
+	Alien has two brains
+		small fast one
+		big slow one
+		slow to learn or slow to speak?
+		
+was the trade off worth it?
+
+hard:
+
++ less code!
+- unneccesary code (in constructor)
+- unfortunate logic about regurgitating the small fast brain
+- the alien and the big slow brain are the same class
+	- polutes the interface of the alien. (speak or regurgitate?)
+- poor use of inheritance (behaves like?)
+ 
