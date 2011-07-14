@@ -8,7 +8,7 @@ public class EnglishLesson {
 
 	private void begin() {
 		Alien alien = new Alien();
-		alien.teach("The", "claw", "is", "our", "master!");
+		alien.teach("The", "claw", "chooses", "who", "will", "go", "and", "who", "will", "stay.");
 		System.out.println(alien.speak());		
 	}
 }
