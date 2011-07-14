@@ -11,8 +11,10 @@ what did you learn?
 	teaching english
 	Alien has two brains
 		small fast one
+			how much can it remember?
 		big slow one
-		slow to learn or slow to speak?
+			slow to learn or slow to speak?
+			how much can it remember?
 		
 was the trade off worth it?
 
@@ -24,4 +26,5 @@ hard:
 - the alien and the big slow brain are the same class
 	- polutes the interface of the alien. (speak or regurgitate?)
 - poor use of inheritance (behaves like?)
+- less 'information'
  

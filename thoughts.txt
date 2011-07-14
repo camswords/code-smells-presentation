@@ -1,5 +1,14 @@
 
+change me!
+	this will be an opinionated presentation
+		feel free to push me, to disagree
+		im not after consensus or agreement
+		im interested in discussion and learning 
+		
+		
 whats the goal of this presentation?
+
+	understand the difference between good code and bad code
 
 	I consider myself a software craftsman
 		be passionate!
@@ -7,13 +16,7 @@ whats the goal of this presentation?
 	
 	work on your spidey sense
 	
-	i want to show you how to read between the lines of code
-		little piece of learning that the code is trying to teach us
-		
-	this is not aimed at the beginner coder
 	
-	this will be an opinionated presentation
-		feel free to disagree 
 	
 what is a code smell?
 
